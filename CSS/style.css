@@ -7,6 +7,7 @@ body {
     /* font */
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
+    overflow-x: hidden;
 }
 
 /* Hero */
@@ -61,7 +62,9 @@ a {
 .h_body_align {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 50vh;
 }
 
 .h_body_align h1 {
@@ -76,11 +79,20 @@ a {
     color: #e5e7eb
 }
 
-.h_body_align button {
-    background: #3882f6;
-    color: #f9faf8;
+.h_body_align .hero_button,
+.c2a_button {
     font-size: large;
     font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 5px 25px 5px 25px;
+    border: 0;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+.h_body_align .hero_button {
+    background: #3882f6;
+    color: #f9faf8;
 }
 
 /* body */
@@ -141,7 +153,7 @@ a {
     display: flex;
     justify-content: end;
     /* align-self: flex-end;  */
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -149,6 +161,43 @@ a {
 
 .call_main {
     margin: 20px;
+    padding: 80px 30px 80px 30px;
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    padding: 50px 100px;
+    border-radius: 15px;
+    width: 130vh;
+}
+
+.call h3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.call_text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.call_text p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.c2a_button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    /* border-color: #f9faf8; */
+    color:#f9faf8;
+    padding: 5px 25px;
 }
 
 /* footer */
