@@ -3,7 +3,25 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.header_image {
+
+.hero_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.hero_menu li {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+.hero_image {
     width: 524px; 
     height: 235px;
     object-fit: cover;
