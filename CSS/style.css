@@ -135,6 +135,28 @@ a {
     width: 100vh;
 }
 #quote_block #citation {
+    display: flex;
+    justify-content: end;
+    /* align-self: flex-end;  */
     font-size: 25px;
     font-weight: 500;
+}
+
+/* call to action */
+
+.call_main {
+    margin: 20px;
+}
+
+/* footer */
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    width: 100%;
+    margin: auto;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
 }
