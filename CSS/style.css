@@ -105,6 +105,11 @@ a {
    margin: 30px;
 }
 
+.image-card p {
+    text-align: center;
+    color:#1f2937
+}
+
 .card-image {
     width: 200px;
     height: 200px;
@@ -120,7 +125,7 @@ a {
 
 .gallery {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 .gallery_master h1 {
