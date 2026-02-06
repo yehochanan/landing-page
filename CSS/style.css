@@ -2,13 +2,23 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 0;
+    width: 100%;
+    /* font */
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
 }
 
 /* Hero */
 
-.hero {
+#hero {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #1f2937;
 }
 
 .hero_menu {
@@ -39,12 +49,19 @@ a {
 #h_body {
     display: flex;
     justify-content: flex-start;
+    margin: 25px;
 }
 
 .h_body_align {
     display: flex;
     flex-direction: column;
     width: 300px;
+}
+
+.h_body_align h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
 /* body */
@@ -55,6 +72,13 @@ a {
    height: 200px;
    width: 200px;
    margin: 30px;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
 }
 
 .gallery_master{ 
