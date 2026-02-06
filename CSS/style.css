@@ -4,6 +4,13 @@ body {
     flex-direction: column;
 }
 
+/* Hero */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero_menu {
     display: flex;
     justify-content: space-between;
@@ -26,7 +33,21 @@ a {
     height: 235px;
     object-fit: cover;
     object-position: top center;
+    margin: 30px;
 }
+
+#h_body {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.h_body_align {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/* body */
 
 .image-card {
    border: 5px solid #62a1ca;
