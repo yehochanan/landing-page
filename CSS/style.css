@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header_image {
+    width: 524px; 
+    height: 235px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.image-card {
+   border: 5px solid #62a1ca;
+   border-radius: 25px;
+   height: 200px;
+   width: 200px;
+   margin: 30px;
+}
+
+.gallery_master{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+}
